@@ -1,6 +1,35 @@
 {
-  "name": "parserXml-microservices",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+    "name": "parserXml-json",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "ts:node": "ts-node src/index.ts",
+        "dev": "nodemon",
+        "build": "tsc",
+        "html": "find ./src -name '*.hbs' -o -name '*.css' -type f -exec cp --parents {} ./build \\;",
+        "clean": "rm -rf build",
+        "start": "node build/src"
+    },
+    "keywords": [],
+    "author": "Roman Calderin",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.14",
+        "@types/mongoose": "^5.3.5",
+        "@types/morgan": "^1.9.3",
+        "@types/node": "^10.12.18",
+        "body-parser": "^1.20.1",
+        "copyfiles": "^2.1.0",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.15",
+        "ts-node": "^7.0.1",
+        "typescript": "^3.2.2",
+        "xml2js": "^0.4.23"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "express": "^4.16.4",
+        "TypeScript": "npm:typescript@^3.9.10"
+    }
 }
