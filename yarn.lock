@@ -773,6 +773,11 @@
 "color-name@~1.1.4":
   "version" "1.1.4"
 
+"colors@0.6.0-1":
+  "integrity" "sha512-ZaQtySU44lmZRP6M+CovFWnu7QnxLTsr/3wURb7BCOV1/gKjUb/3uu3NsLR+fvA2Jfs6sNfwcVq0Tp2mWYbuxg=="
+  "resolved" "https://registry.npmjs.org/colors/-/colors-0.6.0-1.tgz"
+  "version" "0.6.0-1"
+
 "concat-map@0.0.1":
   "integrity" "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg=="
   "resolved" "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
@@ -805,6 +810,19 @@
 
 "core-util-is@~1.0.0":
   "version" "1.0.3"
+
+"custom-logger@^0.3.1":
+  "integrity" "sha512-uJx5C55CigR3KpNoP7OyBkhiwq+dqH5eujoznW9hsEjKspN88E8m5PukPRDJavfPCQBFZc/IdaQzkM3SC3jGtQ=="
+  "resolved" "https://registry.npmjs.org/custom-logger/-/custom-logger-0.3.1.tgz"
+  "version" "0.3.1"
+  dependencies:
+    "colors" "0.6.0-1"
+    "dateformat" "1.0.2-1.2.3"
+
+"dateformat@1.0.2-1.2.3":
+  "integrity" "sha512-AXvW8g7tO4ilk5HgOWeDmPi/ZPaCnMJ+9Cg1I3p19w6mcvAAXBuuGEXAxybC+Djj1PSZUiHUcyoYu7WneCX8gQ=="
+  "resolved" "https://registry.npmjs.org/dateformat/-/dateformat-1.0.2-1.2.3.tgz"
+  "version" "1.0.2-1.2.3"
 
 "debug@^3.2.7":
   "integrity" "sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ=="

@@ -28,6 +28,7 @@
         "xml2js": "^0.4.23"
     },
     "dependencies": {
+        "custom-logger": "^0.3.1",
         "dotenv": "^16.0.0",
         "express": "^4.16.4",
         "TypeScript": "npm:typescript@^3.9.10"
