@@ -1,5 +1,6 @@
 import express, { Router, Request, Response, NextFunction } from "express";
 import { ControllerParser } from "../controller/parser.controller";
+import * as pdf from "xml-to-pdf";
 const log = require("custom-logger").config({ level: 0 });
 const routes = Router();
 
