@@ -892,6 +892,11 @@
   dependencies:
     "ms" "2.1.2"
 
+"deeks@2.5.1":
+  "integrity" "sha512-fqrBeUz7f1UqaXDRzVB5RG2EfPk15HJRrb2pMZj8mLlSTtz4tRPsK5leFOskoHFPuyZ6+7aRM9j657fvXLkJ7Q=="
+  "resolved" "https://registry.npmjs.org/deeks/-/deeks-2.5.1.tgz"
+  "version" "2.5.1"
+
 "deep-clone-merge@^1.5.4":
   "integrity" "sha512-Gb/b8aAFUeX/ZkQwfpYlzVXaUOnHj0jPmh8uwF0eBGhAuFMZA1IxeuSzLGG4B1lzrp0SZsd3UhL6zvhDY7l6ZQ=="
   "resolved" "https://registry.npmjs.org/deep-clone-merge/-/deep-clone-merge-1.5.4.tgz"
@@ -942,6 +947,11 @@
 
 "diff@^3.1.0":
   "version" "3.5.0"
+
+"doc-path@3.0.2":
+  "integrity" "sha512-VRlA2OKSjTbHWj6wmSanxJ338fE/YN8pqmZ0FIWK5JWkIJMFRc4KmD35JtOrnjvVG0WrzOtDDNHx1lN1tkb+lA=="
+  "resolved" "https://registry.npmjs.org/doc-path/-/doc-path-3.0.2.tgz"
+  "version" "3.0.2"
 
 "dotenv@^16.0.0":
   "version" "16.0.3"
@@ -1321,6 +1331,14 @@
 
 "isarray@0.0.1":
   "version" "0.0.1"
+
+"json-2-csv@^3.17.2":
+  "integrity" "sha512-Cmds9bIMxhqdYX1dx9AGXE0vLetTj1if0w2rpa2Zykn3f1tiD2535nLgrvJG8BbkCq1++qQwCCzvPjeSl6BCJQ=="
+  "resolved" "https://registry.npmjs.org/json-2-csv/-/json-2-csv-3.17.2.tgz"
+  "version" "3.17.2"
+  dependencies:
+    "deeks" "2.5.1"
+    "doc-path" "3.0.2"
 
 "kareem@2.4.1":
   "version" "2.4.1"
