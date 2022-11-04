@@ -11,4 +11,6 @@ routes.get("/", async (req: Request, res: any, next: NextFunction) => {
 });
 
 routes.get("/parser", ControllerParser.parserToXml);
+
+routes.post("/convert-csv", ControllerParser.convertCsv);
 module.exports = routes;

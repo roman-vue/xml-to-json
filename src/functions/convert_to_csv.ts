@@ -7,7 +7,9 @@ export class ConvertToCsv {
             if (err) {
                 throw err;
             }
-            fs.writeFileSync("json.csv", csv);
+            fs.writeFileSync("data.csv", csv);
         });
+        const file = fs.readFileSync("data.csv");
+        return file;
     }
 }
